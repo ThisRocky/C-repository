@@ -8,7 +8,11 @@ using System.Drawing;
 
 namespace test_run
 {
-    class Myform
+    class MyForm: Form
     {
+        public MyForm()
+        {
+            MessageBox.Show("Hello there");
+        }
     }
 }
